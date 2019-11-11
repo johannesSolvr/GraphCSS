@@ -1,4 +1,4 @@
-gr__ir_asp_manamind_com .component {
+.gr__ir_asp_manamind_com .component {
     position: relative;
     padding: 4px;
     border: 1px solid #ddd;
@@ -11,7 +11,7 @@ gr__ir_asp_manamind_com .component {
     box-shadow: 0 1px 3px rgba(0,0,0,0.055);
 }
 
-gr__ir_asp_manamind_com .component .component-header h3 {
+.gr__ir_asp_manamind_com .component .component-header h3 {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
