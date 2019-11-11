@@ -1,3 +1,27 @@
-body {
-  background-color: #fff;
+.component {
+    position: relative;
+    padding: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.055);
+}
+
+.component .component-header h3 {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: #ff0000;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd5e3f1',endColorstr='#ffffffff',GradientType=0);
+    color: #036;
+    margin: 0;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-bottom: 0;
 }
